@@ -1,0 +1,79 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    background-image: url('fondo2.gif');
+    background-size: cover; /* Ajusta el GIF para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que el GIF se repita en mosaico */
+    background-position: center; /* Centra el GIF */
+  }
+
+h1 {
+    color: #4a90e2;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Estilo del contenedor de la pregunta */
+#preguntaContainer {
+    background-color: #ffffff;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#preguntaTexto {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las opciones */
+#opcionesContainer {
+    list-style-type: none;
+    padding: 0;
+}
+
+#opcionesContainer li {
+    background-color: #e8f0fe;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#opcionesContainer li:hover {
+    background-color: #4a90e2;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Estilo del botón */
+#nuevaPreguntaButton {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#nuevaPreguntaButton:hover {
+    background-color: #357ABD;
+}
